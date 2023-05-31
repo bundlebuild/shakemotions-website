@@ -5,6 +5,9 @@ import FadeUp from '../Animations/FadeUp';
 const Contact: React.FC = () => {
   return (
     <div className="contact-section">
+      <div className="contact-heading">
+        Love our work, Hire us!
+      </div>
       <div className="contact-form">
         <div className="contact-form-input">
           <input type="text" name="name" placeholder="Name *" />
