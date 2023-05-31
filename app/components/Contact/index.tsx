@@ -8,7 +8,7 @@ const Contact: React.FC = () => {
   return (
     <div className="contact-section">
       <FadeUp className="contact-heading">
-        Let's talk <span className="highlighted">today</span>, <br />
+        Let's talk <span className="highlighted">today</span>
         We start <span className="highlighted">tomorrow</span>.
       </FadeUp>
       <div className="contact-form">
