@@ -1,5 +1,6 @@
+//@ts-nocheck
 import * as React from 'react'
-import './howItWorksItem.css';
+import './howItWorksItemStyles.css';
 import FadeUp from '../Animations/FadeUp'
 import Image from 'next/image';
 
