@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from 'react';
 import './contact.css';
 import FadeUp from '../Animations/FadeUp';
 
@@ -18,28 +18,22 @@ const Contact: React.FC = () => {
           <textarea name="project_details" placeholder="Project Details *" style={{ resize: "none", height: 150 }}></textarea>
         </div>
 
-
         <div className="contact-form-input">
-          <input type="email" name="project_tagline" placeholder="Email *" />
+          <input type="email" name="email" placeholder="Email *" />
         </div>
 
         <div className="contact-form-footer">
-
           <div className="btn-embed w-embed">
-            <button
-              className="btn primary submit-btn"
-              type="submit"
-            >
+            <button className="btn primary submit-btn" type="submit">
               <span className="btn-contents">
                 <span className="btn-text">Submit</span>
               </span>
             </button>
           </div>
         </div>
-
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Contact;
