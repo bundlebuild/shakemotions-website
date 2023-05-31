@@ -64,7 +64,7 @@ const Hero: React.FC = () => {
       <div className="hero-cta">
 
         <a
-          href="https://calendly.com/christian_assembly/keyframe-introduction"
+          href="#howto"
           data-ms-content="!members"
           className="btn-link w-inline-block"
         >
