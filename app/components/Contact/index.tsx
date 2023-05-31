@@ -3,13 +3,8 @@ import './contact.css';
 import FadeUp from '../Animations/FadeUp';
 
 const Contact: React.FC = () => {
-
-
   return (
     <div className="contact-section">
-      <FadeUp className="contact-heading">
-        Lets talk
-      </FadeUp>
       <div className="contact-form">
         <div className="contact-form-input">
           <input type="text" name="name" placeholder="Name *" />
