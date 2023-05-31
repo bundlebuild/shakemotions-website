@@ -17,7 +17,7 @@ html,body {
   background: var(--foreground);
   color: var(--white);
   font-family: var(--font);
-  overflow-x: hidden;
+  overflow-x: hidden!important;
 }
 
 .only-desktop {
