@@ -29,13 +29,13 @@
 }
 
 .vid-center {
-transform: translate3d(0px, 5.837px, 0px) rotate(3.8835deg);
+transform: translate3d(0px, 5.837px, 0px) rotate(3.8835deg)!important;
 }
 
 .vid-left {
-  transform: translate(0px, -200px) rotate(-5deg);
+  transform: translate(0px, -200px) rotate(-5deg)!important;
 }
 
 .vid-right {
-  transform: translate(0px, -150px) rotate(10deg);
+  transform: translate(0px, -150px) rotate(10deg)!important;
 }
