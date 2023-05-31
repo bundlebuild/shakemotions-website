@@ -6,7 +6,7 @@ const Contact: React.FC = () => {
   return (
     <div className="contact-section">
       <div className="contact-heading">
-        Love our work, Hire us!
+        Love our work, <br /> <span className="higlighted-text">Hire us!</span>
       </div>
       <div className="contact-form">
         <div className="contact-form-input">
