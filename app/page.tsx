@@ -8,12 +8,14 @@ import WorkWillAmaze from './components/WorkWillAmaze'
 import OurWorks from './components/OurWork'
 import OurRecentVideos from './components/OurRecentVideos'
 import Contact from './components/Contact'
+import HowItWorksV2 from './components/HowItWorksV2'
 
 export default function Home() {
   return (
     <ScrollObserver>
       <Header />
       <Hero />
+      <HowItWorksV2 />
       <WorkWillAmaze />
       <OurRecentVideos />
       <OurWorks />

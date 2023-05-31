@@ -4,10 +4,13 @@ import FadeUp from '../Animations/FadeUp';
 
 const Contact: React.FC = () => {
 
-  /* Let's talk <span className="highlighted">today</span>, <br />
-  We start <span className="highlighted">tomorrow</span>. */
+
   return (
     <div className="contact-section">
+      <FadeUp className="contact-heading">
+        Let's talk <span className="highlighted">today</span>, <br />
+        We start <span className="highlighted">tomorrow</span>.
+      </FadeUp>
       <div className="contact-form">
         <div className="contact-form-input">
           <input type="text" name="name" placeholder="Name *" />
