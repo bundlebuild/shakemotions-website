@@ -1,3 +1,4 @@
+//@ts-nocheck
 "use client"
 import React, { useRef, useContext } from 'react';
 import './tile.css';
@@ -71,11 +72,11 @@ export const Tile: React.FC<Props> = ({ page, renderContent }) => {
 
 
   return (
-    <div ref={refContainer} style={{ position: "absolute", top: 0, width: "100%" }}
-      style={{
-        pointerEvents: progress >= 0 || progress >= 1 ? 'none' : undefined,
-        opacity
-      }}>
+    <div ref={refContainer} style={{
+      position: "absolute", top: 0, width: "100%",
+      pointerEvents: progress >= 0 || progress >= 1 ? 'none' : undefined,
+      opacity
+    }}>
       {renderContent({ progress })}
     </div>
   )

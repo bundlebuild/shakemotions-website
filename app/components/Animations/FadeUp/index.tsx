@@ -4,6 +4,7 @@ import './fadeUp.css';
 import classNames from 'classnames';
 
 interface FadeUpProps {
+  children: any,
   className?: string;
 }
 
