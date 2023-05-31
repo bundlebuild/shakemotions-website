@@ -1,0 +1,130 @@
+.sm-header {
+  z-index: 10;
+  max-width: 1720px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: fixed;
+  top: 28px;
+  left: 32px;
+  right: 32px;
+}
+
+.shakemotions-logo {
+    width: 200px;
+    height: 64px;
+    flex: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: visible;
+}
+
+.header-menu {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    display: flex;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 25%;
+    right: 25%;
+}
+
+.header-menu-item {
+    color: #fafafa;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: rgba(214,185,252,0);
+    border-radius: 9999px;
+    flex: none;
+    padding: 12px;
+    font-family: var(--font);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-decoration: none;
+    transition: color .4s,background-color .25s;
+}
+
+.bullet {
+    width: 8px;
+    height: 8px;
+    flex: none;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.header-menu-item:hover {
+    color: #000;
+    background-color: #888;
+}
+
+.hero-auth-group {
+    grid-column-gap: 24px;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+
+.btn-link {
+    flex: none;
+    position: relative;
+}
+
+.w-embed:before, .w-embed:after {
+    content: " ";
+    grid-area: 1/1/2/2;
+    display: table;
+}
+
+.btn.primary {
+    padding: 2px;
+    border-radius: 999px;
+    border: none;
+    width: fit-content;
+    position: relative;
+    background-color: transparent;
+    overflow: hidden;
+    cursor: pointer;
+    animation: btn-reveal 1s cubic-bezier(0.350, 0.000, 0.05, 1.000) forwards;
+    opacity: 0;
+}
+
+.btn-contents {
+    display: block;
+    position: relative;
+    padding: 24px 32px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--font);
+    color: #FAFAFA;
+    border-radius: 999px;
+    background-color: #000;
+    z-index: 1;
+    transition: 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    letter-spacing: 1px;
+    border: 2px solid var(--secondary);
+}
+
+
+.w-embed:after {
+    clear: both;
+}
+
+.w-embed:before, .w-embed:after {
+    content: " ";
+    grid-area: 1/1/2/2;
+    display: table;
+}
+
+@keyframes btn-reveal {
+    to { opacity: 1; }
+  }
